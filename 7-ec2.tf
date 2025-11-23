@@ -1,5 +1,5 @@
 resource "aws_instance" "web_server" {
-  ami                         = "ami-0157af9aea2eef346"
+  ami                         = "ami-xxxxxxxxxxxxxxxxxx"
   associate_public_ip_address = true
   instance_type               = "t3.micro"
 
